@@ -1166,7 +1166,6 @@ meta.foundation-mq-topbar {
     padding-bottom: .35rem;
     font-size: 0.75rem; }
   .top-bar .button {
-    padding-top: .45rem;
     padding-bottom: .35rem;
     margin-bottom: 0;
     font-size: 0.75rem; }
@@ -1366,8 +1365,7 @@ meta.foundation-mq-topbar {
     .top-bar input,
     .top-bar .button {
       font-size: 0.875rem;
-      position: relative;
-      top: 7px; }
+      position: relative;}
     .top-bar.expanded {
       background: #333333; }
 
@@ -1651,9 +1649,7 @@ button, .button {
     font-size: 1.25rem;
     /*     @else                            { font-size: $padding - rem-calc(2); } */ }
   button.small, .button.small {
-    padding-top: 0.875rem;
     padding-right: 1.75rem;
-    padding-bottom: 0.9375rem;
     padding-left: 1.75rem;
     font-size: 0.8125rem;
     /*     @else                            { font-size: $padding - rem-calc(2); } */ }
@@ -4974,3 +4970,14 @@ th.hide-for-touch {
 
 .touch th.show-for-touch {
   display: table-cell !important; }
+
+ul li {
+	display:block;
+	position:relative;
+}
+
+ul li a{
+	display:block;
+	position:relative;
+}
+
