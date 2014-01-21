@@ -2526,8 +2526,7 @@ h3 {
   text-align:center;  }
 
 h4 {
-  font-size: 1.125rem; 
-  text-align:center;  }
+  font-size: 1.125rem; }
 
 h5 {
   font-size: 1.125rem; 
@@ -4973,11 +4972,8 @@ th.hide-for-touch {
 
 ul li {
 	display:block;
-	position:relative;
-}
+	position:relative;}
 
-ul li a{
-	display:block;
-	position:relative;
-}
+#footer{
+	text-align:center;}
 
