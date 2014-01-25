@@ -4965,27 +4965,3 @@ th.hide-for-touch {
 
 .touch th.show-for-touch {
   display: table-cell !important; }
-
-ul li {
-	display:block;
-	position:relative;}
-
-#footer{
-	text-align:center;}
-	
-img{
-	text-align:center;
-}
-
-body{
-	background-color:#D9D9D9;
-}
-
-#viewMoreWorkButton{
-	text-align:center;
-	display:inline-block;
-}
-
-#projectsLabel {
-	vertical-align:center;
-}
